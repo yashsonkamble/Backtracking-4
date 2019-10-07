@@ -19,7 +19,7 @@ For example, w=4, h=4 and n=3. An optimal grid placement sets any lot within two
 
 2 1 2 1
 
-## Problem2: Brace Expansion 
+## Problem2: Word List Brace Expansion 
 
 Given a string S representing list of words.
 
