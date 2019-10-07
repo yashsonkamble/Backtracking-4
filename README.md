@@ -34,15 +34,20 @@ Return all words that can be formed in this manner in lexicographical order.
 Example 1:
 
 Input: "{a,b}c{d,e}f"
+
 Output: ["acdf","acef","bcdf","bcef"]
+
 Example 2:
 
 Input: "abcd"
+
 Output: ["abcd"]
  
 
 Note:
 
 1 <= S.length <= 50
+
 There are no nested curly brackets.
+
 All characters inside a pair of consecutive opening and ending curly brackets are different.
