@@ -22,33 +22,4 @@ For example, w=4, h=4 and n=3. An optimal grid placement sets any lot within two
 ## Problem2: Word List Brace Expansion 
 https://leetcode.com/problems/brace-expansion/
 
-Given a string S representing list of words.
 
-Each letter in the word has one or more options.  If there is one option, the letter is represented as is, else curly braces delimit the options.  For example, "{a,b,c}" represents options ["a", "b", "c"].
-
-For example, "{a,b,c}d{e,f}" represents the list ["ade", "adf", "bde", "bdf", "cde", "cdf"].
-
-Return all words that can be formed in this manner in lexicographical order.
-
- 
-
-Example 1:
-
-Input: "{a,b}c{d,e}f"
-
-Output: ["acdf","acef","bcdf","bcef"]
-
-Example 2:
-
-Input: "abcd"
-
-Output: ["abcd"]
- 
-
-Note:
-
-1 <= S.length <= 50
-
-There are no nested curly brackets.
-
-All characters inside a pair of consecutive opening and ending curly brackets are different.
